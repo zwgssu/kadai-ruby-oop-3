@@ -1,6 +1,3 @@
-module Kadai
-  module Type
-
 class Animal
     attr_accessor :name, :age
     
@@ -12,7 +9,4 @@ class Animal
     def say
     puts "#{self.name}です。#{self.age}歳です。"
     end
-end
-
-  end
 end
